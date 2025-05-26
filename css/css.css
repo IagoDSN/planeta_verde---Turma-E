@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: normal;
+    font-style: normal;
+    /*background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);*/
+}
+
+div#interface{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.titulo1{
+  color: #fff;
+  font-size: 32px;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #253526;
+    height: 60px;
+    padding: 10px;
+}
+.logo{
+float: left
+}
+.logo img{
+width: 60px;
+vertical-align: middle;
+}
+
+.social{
+float: right;
+padding-top: 10px;
+padding-bottom: 15px;
+}
+.social img{
+    width: 24px;
+}
+
+.menu{
+    background-color: rgb(65, 65, 65);
+    height: 40px;
+}
+.menu ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    transition: 0.8s;
+}
+.menu a:hover{
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 193, 7);
+}
+.banner{
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    height: 500px;
+}
+.banner p{
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.missao{
+    padding: 75px 75px;
+}
+
+.titulo2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.missao p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+.missao span{
+    color: rgb(18, 124, 25);
+    font-weight: bold;
+}
+.alerta{
+    /* display: flex; */
+    text-align: center;
+    background-color: rgb(131, 100, 60);
+    border-top: solid 15px rgb(35, 30, 24);
+    border-bottom: solid 15px rgb(35, 30, 24);
+    color: rgb(255, 255, 255);
+    height: 350px;
+}
+.alerta figure{
+    float: left;
+    width: 285px;
+    margin: 0px;
+    padding: 15px 20px 0px;
+}
+.alerta a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 193, 7);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
