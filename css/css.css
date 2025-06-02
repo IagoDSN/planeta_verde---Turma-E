@@ -59,10 +59,10 @@ padding-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px 15px;
-    transition: 0.8s;
+    transition: all 1.5s;
 }
 .menu a:hover{
-    border-radius: 60px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 193, 7);
 }
@@ -102,16 +102,18 @@ padding-bottom: 15px;
     font-weight: bold;
 }
 .alerta{
-    /* display: flex; */
+    display: flex;
     text-align: center;
     background-color: rgb(131, 100, 60);
     border-top: solid 15px rgb(35, 30, 24);
     border-bottom: solid 15px rgb(35, 30, 24);
     color: rgb(255, 255, 255);
     height: 350px;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
 }
 .alerta figure{
-    float: left;
+    /* float: left; */
     width: 325px;
     margin: 0px;
     padding: 15px 20px 0px;
@@ -129,4 +131,31 @@ padding-bottom: 15px;
     position: absolute;
     bottom: 0;
     right: 31.5%;
+}
+.renovavel{
+    float: left;
+    width: 900px;
+    border-right: 2px solid rgb(35, 30, 24);
+    padding-right: 10px;
+}
+.renovavel p{
+    font-size: 18px;
+    text-align: justify;
+}
+.renovavel figure{
+    margin: 15px 24px;
+    /* float: left; */
+    border: 1px solid rgb(0,0,0);
+    padding: 10px;
+}
+.renovavel figure img{
+    opacity: 50%;
+    transition: opacity 0.8s;
+}
+.renovavel figure:hover img{
+    opacity: 100%;
+}
+.renovavel div{
+    display: flex;
+    flex-wrap: wrap;
 }
