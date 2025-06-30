@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
     font-size: 18px;
     text-transform: normal;
@@ -7,53 +7,60 @@ body{
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);*/
 }
 
-div#interface{
+div#interface {
     width: 1300px;
     margin: 0 auto;
 }
 
-.titulo1{
-  color: #fff;
-  font-size: 32px;
-   margin: 0;
-   font-family: Arial, Helvetica, sans-serif;
+.titulo1 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     background-color: #253526;
     height: 60px;
     padding: 10px;
 }
-.logo{
-float: left
-}
-.logo img{
-width: 60px;
-vertical-align: middle;
+
+.logo {
+    float: left
 }
 
-.social{
-float: right;
-padding-top: 10px;
-padding-bottom: 15px;
+.logo img {
+    width: 60px;
+    vertical-align: middle;
 }
-.social img{
+
+.social {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.social img {
     width: 24px;
 }
 
-.menu{
+.menu {
     background-color: rgb(65, 65, 65);
     height: 40px;
 }
-.menu ul{
+
+.menu ul {
     text-align: center;
     list-style: none;
     margin: 0;
     padding: 10px 0 0;
 }
-.menu li{
+
+.menu li {
     display: inline;
 }
-.menu a{
+
+.menu a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: 10px;
@@ -61,12 +68,14 @@ padding-bottom: 15px;
     padding: 5px 15px;
     transition: all 1.5s;
 }
-.menu a:hover{
+
+.menu a:hover {
     border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 193, 7);
 }
-.banner{
+
+.banner {
     background-image: url(../imagens/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -74,7 +83,8 @@ padding-bottom: 15px;
     align-content: center;
     height: 500px;
 }
-.banner p{
+
+.banner p {
     color: white;
     margin: 0;
     font-weight: bold;
@@ -83,25 +93,27 @@ padding-bottom: 15px;
     text-shadow: 2px 2px 4px black;
 }
 
-.missao{
+.missao {
     padding: 75px 75px;
 }
 
-.titulo2{
+.titulo2 {
     font-size: 35px;
     text-align: center;
 }
 
-.missao p{
+.missao p {
     font-size: 22px;
     text-align: center;
     line-height: 30px;
 }
-.missao span{
+
+.missao span {
     color: rgb(18, 124, 25);
     font-weight: bold;
 }
-.alerta{
+
+.alerta {
     display: flex;
     text-align: center;
     background-color: rgb(131, 100, 60);
@@ -112,7 +124,8 @@ padding-bottom: 15px;
     /* flex-direction: row-reverse; */
     justify-content: space-around;
 }
-.alerta figure{
+
+.alerta figure {
     /* float: left; */
     width: 325px;
     margin: 0px;
@@ -121,7 +134,8 @@ padding-bottom: 15px;
     height: 310px;
     box-sizing: border-box;
 }
-.alerta a{
+
+.alerta a {
     text-decoration: none;
     color: black;
     background-color: rgb(255, 193, 7);
@@ -132,30 +146,66 @@ padding-bottom: 15px;
     bottom: 0;
     right: 31.5%;
 }
-.renovavel{
+
+.renovavel {
     float: left;
     width: 900px;
     border-right: 2px solid rgb(35, 30, 24);
     padding-right: 10px;
 }
-.renovavel p{
+
+.renovavel p {
     font-size: 18px;
     text-align: justify;
 }
-.renovavel figure{
+
+.renovavel figure {
     margin: 15px 24px;
     /* float: left; */
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
-.renovavel figure img{
+
+.renovavel figure img {
     opacity: 50%;
     transition: opacity 0.8s;
 }
-.renovavel figure:hover img{
+
+.renovavel figure:hover img {
     opacity: 100%;
 }
-.renovavel div{
+
+.renovavel div {
     display: flex;
     flex-wrap: wrap;
+}
+
+.lateral {
+    float: right;
+    width: 380px;
+}
+
+.lateral img {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+.lateral a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape {
+    height: 50px;
+    background-color: rgb(30,30,24) ;
+    clear: both;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+}
+.rodape img{
+    float: left;
+}
+.rodape p{
+    float: right;
 }
