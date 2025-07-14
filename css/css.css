@@ -3,6 +3,7 @@
     --preto: rgb(7, 3, 7);
     --branco: rgb(255, 255, 255);
     --amarelo: rgb(255, 181, 7);
+    --cinza: rgb(65, 65, 65);
 }
 
 body {
@@ -53,7 +54,7 @@ header {
 }
 
 .menu {
-    background-color: rgb(65, 65, 65);
+    background-color: var(--cinza);
     height: 40px;
 }
 
