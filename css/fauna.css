@@ -1,10 +1,17 @@
 .galeria{
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 .galeria li{
+    display: flex;
     float: left;
     width: 400px;
     height: 300px;
     border: 1px solid var(--cinza);
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }

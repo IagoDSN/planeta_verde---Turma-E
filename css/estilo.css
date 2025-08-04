@@ -207,13 +207,13 @@ header{
     text-decoration: none;
     color: var(--preto);
 }
-
 .rodape{
     background-color: var(--marrom-escuro);
     clear: both;
     color: var(--branco);
     padding: 20px 50px;
     height: 50px;
+
 }
 
 .ropade img{float: left;}
