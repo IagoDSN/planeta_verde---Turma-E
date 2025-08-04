@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --marrom-escuro: rgb(35, 30, 24);
+    --preto: rgb(0, 0, 0);
+    --branco: rgb(255, 255, 255);
+    --amarelo: rgb(255, 181, 7);
+    --cinza: rgb(65, 65, 65);
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--preto);
+}
+
+div#interface{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(37, 53, 38);
+    height: 60px;
+    padding: 10px;
+}
+
+.logo{float: left;}
+
+.logo img{
+    width: 60px;
+    vertical-align: middle;
+}
+
+.social{
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.social img{width: 24px;}
+
+.titulo1{
+    color: var(--branco);
+    font-family: 'Roboto';
+    /* margin: 50px 150px 50px 100px; */
+    margin: 0;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.menu{
+    background-color: var(--cinza);
+    height: 40px;
+}
+
+.menu ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0;
+}
+
+.menu li{display: inline;}
+
+.menu a{
+    color: var(--branco);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    transition: all 2s;
+}
+
+.menu a:hover{
+    background-color: var(--amarelo);
+    color: var(--preto);
+    border-radius: 10px;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(../imagens/banner.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+.banner p{
+    margin: 0;
+    text-align: center;
+    font-size: 75px;
+    padding-top: 200px;
+    color: var(--branco);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px var(--preto);
+}
+
+.missao{
+    padding: 75px 50px;
+}
+
+.titulo2{
+    font-size: 35px;
+    text-align: center;
+}
+.missao p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.missao span{
+    color: rgb(18, 124, 25);
+    font-weight: bold;
+}
+
+.alerta{
+    --bg-alerta:rgb(131, 100, 60); /*variável local */
+    /* --amarelo: rgb(7, 69, 255); variável de substituição */
+    /* border-width: 10px;
+    border-color: red;
+    border-style: dotted; */
+    /* border-top: 10px solid red;
+    border-bottom: 5px dotted yellow;
+    border-left: 15px dashed blue;
+    border-right: 20px double green; */
+    border-top: 15px solid var(--marrom-escuro);
+    border-bottom: 15px solid var(--marrom-escuro);
+    background-color: var(--bg-alerta);
+    text-align: center;
+    color: var(--branco);
+    height: 350px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alerta figure{
+    /* float: left; */
+    width: 325px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+.alerta a{
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--amarelo);
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+}
+
+.renovavel{
+    float: left;
+    width: 900px;
+    border-right: 2px solid var(--marrom-escuro);
+    padding-right: 10px;
+}
+
+.renovavel p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.renovavel div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.renovavel figure{
+    margin: 15px 24px;
+    /* float: left; */
+    border: 1px solid var(--preto);
+    padding: 10px;
+}
+
+.renovavel figure img{
+    opacity: 0.4;
+    transition: opacity 2s;
+}
+
+.renovavel figure:hover img{
+    opacity: 1;
+}
+
+.lateral{
+    float: right;
+    width: 380px;
+}
+
+.lateral img{
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+.lateral a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.rodape{
+    background-color: var(--marrom-escuro);
+    clear: both;
+    color: var(--branco);
+    padding: 20px 50px;
+    height: 50px;
+}
+
+.ropade img{float: left;}
+
+.rodape p{float: right;}

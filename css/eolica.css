@@ -1,0 +1,23 @@
+table,
+td{
+    border: 1px solid var(--preto);
+    border-spacing: 0;
+}
+
+/* tr{border:1px solid var(--preto);} */
+
+table{
+    width: 1200px;
+    margin: 0 auto 25px;}
+
+.cabecalho{
+    text-align: center;
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+
+table img{width: 100%;}
+
+td{
+    padding: 10px;
+}
