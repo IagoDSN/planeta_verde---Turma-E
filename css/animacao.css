@@ -1,0 +1,21 @@
+body{
+    overflow-y: hidden;
+}
+
+.animacao{
+    width: 100px;
+    height: 100px;
+    animation-name: ex;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex{
+    /* from{background-color: red;} to {background-color: yellow;} */
+    0%{transform: translate(0,0) rotate(360deg);}
+    25%{transform: translate(1300px,0);}
+    50%{transform: translate(1300px,500px) rotate(360deg);}
+    75%{transform: translate(0,500px);}
+    100%{transform: translate(0,0) rotate(360deg);}
+}

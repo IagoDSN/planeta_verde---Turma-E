@@ -60,10 +60,10 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    transition: 3s;
+    transition: all 10s;
 }
 .animacao:hover{
-    transform: translate(1000px, 100px) rotate(100deg) scale(2);
+    transform: translateX(1000px) rotate(100deg) scale(2);
     background-color: green;
     border-radius: 360px;
 }
