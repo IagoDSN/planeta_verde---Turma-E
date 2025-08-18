@@ -25,7 +25,7 @@
 */
 
 body{
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .animacao{
@@ -41,9 +41,25 @@ body{
 
 @keyframes ex{
     /* from{background-color: red;} to {background-color: yellow;} */
-    0%{transform: translate(0,0) rotate(360deg);}
-    25%{transform: translate(1300px,0);}
-    50%{transform: translate(1300px,500px) rotate(360deg);}
-    75%{transform: translate(0,500px);}
-    100%{transform: translate(0,0) rotate(360deg);}
+    0%{transform: translatex(-200px) scaleX(1);}
+    50%{transform: translatex(1600px) scaleX(1);}
+    50.1%{transform: translatex(1600px) scaleX(-1);}
+    100%{transform: translatex(-200px) scalex(-1);}
+
 }
+
+/* 0% {
+    left: -400px;
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(130% - 150px);
+    transform: scaleX(1);
+  }
+  50.01% {
+    transform: scaleX(-1);
+  }
+  100% {
+    left: -400px;
+    transform: scaleX(-1);
+  } */
