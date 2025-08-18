@@ -5,17 +5,20 @@ body{
 .animacao{
     width: 100px;
     height: 100px;
+    background-color: red;
     animation-name: ex;
     animation-duration: 10s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-timing-function: linear;
 }
 
 @keyframes ex{
     /* from{background-color: red;} to {background-color: yellow;} */
-    0%{transform: translate(0,0) rotate(360deg);}
-    25%{transform: translate(1300px,0);}
-    50%{transform: translate(1300px,500px) rotate(360deg);}
-    75%{transform: translate(0,500px);}
-    100%{transform: translate(0,0) rotate(360deg);}
+    0%{ background-color: red; transform: translate(0,0) rotate(360deg);}
+    25%{background-color: blue; transform: translate(1300px,0);}
+    50%{background-color: green; transform: translate(1300px,500px) rotate(360deg);}
+    75%{background-color: yellow; transform: translate(0,500px);}
+    100%{background-color: red; transform: translate(0,0) rotate(360deg);}
 }
